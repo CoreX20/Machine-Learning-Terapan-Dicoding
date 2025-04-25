@@ -40,7 +40,7 @@ Berikut adalah sumber atau tautan dari [dataset](https://www.kaggle.com/datasets
 
 ### **Exploratory Data Analysis**:
 **Correlation Matrix**
-![Correlation Matrix](./correlation_matrix.png)
+![Correlation Matrix](https://res.cloudinary.com/daoqz3rdr/image/upload/v1745551581/correlation_matrix_qk1gak.png)
 Fitur **Previous Score** memiliki skor korelasi positif yang besar (di atas 0.9) dengan fitur target **Performance Index**.
 
 ## Data Preparation
