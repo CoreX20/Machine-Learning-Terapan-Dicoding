@@ -22,11 +22,12 @@ Pendidikan adalah fondasi utama dalam pengembangan sumber daya manusia. Proyek i
 
 ## Data Understanding
 Dataset ini dirancang untuk menganalisis faktor-faktor yang mempengaruhi performance akademik siswa. Dataset yang digunakan berisi 6 kolom dan 10000 baris dengan berbagai fitur seperti Hours Studied, Previous Score, Extracurricular Activities, Sleep Hours, dan Sample Question Papers Practiced. Fitur-fitur tersebut adalah fitur yang akan digunakan dalam menemukan pola pada data, sedangkan Performance Index merupakan fitur target. 
-Kondisi dataset : 
-    - Tidak ada ditemukan missing value pada dataset.
-    - Ditemukan duplikasi data dalam dataset, yaitu sebanyak 127 data. Namun, telah dihapus menggunakan df.drop_duplicates().
-    - Tidak ditemukan outlier pada fitur-fitur tersebut.
 Berikut adalah sumber atau tautan dari [dataset](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression/data)
+
+Kondisi dataset: 
+- Tidak ada ditemukan missing value pada dataset.
+- Ditemukan duplikasi data dalam dataset, yaitu sebanyak 127 data. Namun, telah dihapus menggunakan df.drop_duplicates().
+- Tidak ditemukan outlier pada fitur-fitur tersebut.
 
 
 ### Variabel-variabel pada dataset ini adalah sebagai berikut:
@@ -103,7 +104,7 @@ Hal ini mengurangi risiko overfitting yang sering terjadi pada decision tree tun
 
 Parameter : 
     - n_estimators=50 : Jumlah pohon dalam hutan. Semakin banyak, biasanya prediksi lebih stabil.
-    - max_depth=30 : Batas kedalaman tiap pohon. Mencegah overfitting.
+    - max_depth=16 : Batas kedalaman tiap pohon. Mencegah overfitting.
     - random_state=55 : Seed random untuk memastikan hasil eksperimen bisa direproduksi (konsisten setiap run).
     - n_jobs=-1 : Menggunakan seluruh core CPU yang tersedia untuk paralelisasi.
 ```
