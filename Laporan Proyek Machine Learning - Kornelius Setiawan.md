@@ -110,7 +110,7 @@ Parameter :
 ```
 from sklearn.ensemble import RandomForestRegressor
  
-RF = RandomForestRegressor(n_estimators=50, max_depth=30, random_state=55, n_jobs=-1)
+RF = RandomForestRegressor(n_estimators=50, max_depth=16, random_state=55, n_jobs=-1)
 RF.fit(X_train, y_train)
 ```
 Kelebihan: Menangkap non‑linearitas dengan baik.
